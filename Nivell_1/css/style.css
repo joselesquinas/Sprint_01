@@ -85,4 +85,10 @@ h1 {
   background: #ffa900;
   flex: auto;
 }
-
+/*..................EJERCICIO 2 .....................*/
+/*Device = Low Resolution Tablets, Mobiles (Landscape)*/
+@media all and (max-width: 767px) {
+  .section {
+    flex-direction: column;
+  }
+}
