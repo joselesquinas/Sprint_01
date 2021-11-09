@@ -92,3 +92,23 @@ h1 {
     flex-direction: column;
   }
 }
+/*..................EJERCICIO 3 .....................*/
+/*Smartphones Mobiles (Portrait)*/
+@media all and (max-width: 480px) {
+  .articles {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+  }
+
+  .social {
+    width: 100%;
+  }
+}
